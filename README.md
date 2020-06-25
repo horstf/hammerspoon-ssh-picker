@@ -15,4 +15,4 @@ hs.hotkey.bind({"cmd", "alt"}, "S", ssh_picker.pickHost)
 ```
 Entering `cmd+alt+S` will now display your ssh hosts for you to pick from.
 
-Since some terminals may take a little to start up (mine at least) there is a one second timer set before the ssh command will be executed. If your terminal is faster or slower you can adjust the `seconds` variable in the file to make it work better.
+Since some terminals may take a little to start up (mine at least) there is a one second timer set before the ssh command will be executed. If your terminal is faster or slower you can adjust the `ssh.wait_seconds` variable in the file to make it work better.
